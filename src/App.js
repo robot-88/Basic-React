@@ -1,9 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Welcome from './components/Welcome';
+// import demo from './components/Welcome.css';
+import LoginForm from './components/Login/LoginForm';
+
 
 function App() {
   return (
-   <div className='welcome'>Welcome To React</div>
+   <>
+   <Welcome />
+   <LoginForm/>
+   </>
   );
 }
 
