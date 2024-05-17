@@ -10,11 +10,11 @@ const LoginForm = () => {
         <h1>Login</h1>
         <div className='input-box'>
           <input type='text' placeholder='Username'/>
-          <FaUser className='icon' />
+          {/* <FaUser className='icon' /> */}
         </div>
         <div className='input-box'>
           <input type='password' placeholder='Password' />
-          <FaLock className='icon' />
+          {/* <FaLock className='icon' /> */}
         </div>
         <div className='input-remember'>
          <label> <input type='checkBox'/> Remember me</label> 
