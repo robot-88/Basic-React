@@ -10,11 +10,12 @@
     margin-left: 40%;
 } */
 
+
 .wrapper {
     width: 420px;
     background: transparent;
-    border: 2px solid rgba(255,255,255,.2);
-    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    /* backdrop-filter: blur(30px); */
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
@@ -27,32 +28,33 @@
 
 .wrapper .input-box {
     position: relative;
-    width: 100px;
-    height: 100px;
-    background: salmon;
+    width: 100%;
+    height: 50px;
+    font-weight: 5px;
+    /* background: #fff; */
     margin: 30px 0;
 }
 
 .input-box input {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     background: transparent;
     border: none;
     outline: none;
     border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 2px;
+    border-radius: 40px;
     font-size: 16px;
     color: #fff;
     padding: 20px 45px 20px 20px;
 }
 
 .input-box input ::placeholder {
-    background-color: #fff;
+    color: #fff;
 }
 
 .input-box .icon {
     position: absolute;
-    right: 20px;
+    right: -50px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 16px;
@@ -70,17 +72,17 @@
     margin-right: 4px
 }
 
-.input-remember {
+.input-remember a {
     color: #fff;
     text-decoration: none;
 }
 
-.input-remember a :hover {
+.input-remember a:hover {
     text-decoration: underline;
 }
 
 .wrapper button {
-    width: 100px;
+    width: 100%;
     height: 45px;
     background: #fff;
     border: none;
@@ -96,15 +98,60 @@
 .wrapper .register-link {
     font-size: 14.5px;
     text-align: center;
-    margin : 20px 0 15px;
+    margin: 20px 0 15px;
 
 }
-.register-link p a{
+
+.register-link p a {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
 }
 
-.register-link p .a:hover{
+.register-link p a:hover {
     text-decoration: underline;
+}
+
+
+
+.loginform {
+    margin-top: 200px;
+    font-size: 50px;
+    margin-left: -40px;
+    text-align: center;
+
+}
+
+.inputarea {
+    border-radius: 10px;
+    margin-top: 100px;
+    padding: 50px;
+    width: 500px;
+    border: 10px solid grey;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 60px;
+    height: 250px;
+    border-width: medium;
+
+}
+
+.text-area {
+    padding: 2px;
+    margin: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-left: -15px;
+
+}
+
+.login-btn {
+    margin-left: -30px;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    
+
 }
